@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoExperiencias | Naturaleza y Bienestar</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="contenedor header-content">
+      <div class="marca">
+        <img src="img/logo.png" alt="Logo" class="logo">
+        <h1>EcoExperiencias</h1>
+        <p>Conectando naturaleza y bienestar</p>
+      </div>
+      <nav id="nav" class="navegacion">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#galeria">Galería</a>
+        <a href="#vision360">Visión 360</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#encuesta">Encuesta</a>
+      </nav>
+      <div id="menu-toggle" class="menu-toggle">☰</div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="inicio" class="hero">
+    <div class="contenedor hero-content">
+      <div class="hero-texto">
+        <h2>Bienvenido a EcoExperiencias</h2>
+        <p>Descubre actividades únicas que combinan naturaleza, cultura y bienestar en un entorno verde y acogedor.</p>
+        
+        <a href="#servicios" class="btn btn-principal">Explorar</a>
+      </div>
+      <div class="hero-imagen">
+        <img src="img/fondo-hero.jpg" alt="Vista panorámica de montañas y naturaleza">
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section id="servicios" class="seccion fondo-claro">
+    <div class="contenedor">
+      <div class="titulo-seccion">
+        <span>Servicios</span>
+        <h2>Lo que ofrecemos</h2>
+        <p>Un espacio tecnologico que te ayuda a ver la naturaleza del parque COTAPATA en 360 grados.</p>
+      </div>
+      <div class="tarjetas">
+        <div class="tarjeta">
+          <div class="card-icon">🌿</div>
+          <h3>Senderismo</h3>
+          <p>Recorridos ya definidos con paisajes verdes y montañosos./p>
+        </div>
+        <div class="tarjeta">
+          <div class="card-icon">🥽</div>
+          <h3>flora y fauna</h3>
+          <p>Visualizacion de el entorno de las areas con mejor vista y experiencia.</p>
+        </div>
+        <div class="tarjeta">
+          <div class="card-icon">🍃</div>
+          <h3>Turismo Sostenible</h3>
+          <p>Una propuesta que busca promover el turismo del parque Cotapata.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERÍA -->
+  <section id="galeria" class="seccion fondo-oscuro">
+    <div class="contenedor">
+      <div class="galeria-texto">
+        <span>Galería</span>
+        <h2>Momentos Verdes</h2>
+        <p>Explora imágenes de nuestras actividades y paisajes.</p>
+      </div>
+      <div class="galeria-imagenes">
+        <img src="img/galeria1.jpg" alt="Paisaje de montaña con neblina">
+        <img src="img/galeria2.jpg" alt="Mirador natural entre montañas">
+        <img src="img/galeria3.jpg" alt="Panorámica de valle verde y nubes">
+      </div>
+    </div>
+  </section>
+
+
+  <!-- VISIÓN 360 -->
+  
+  <section id="vision360" class="seccion fondo-claro">
+    <div class="contenedor destacado-grid">
+      <div class="info-imagen">
+        <img src="img/destacado-cascada.jpg" alt="Cascada natural entre vegetación frondosa">
+      </div>
+      <div class="destacado-texto">
+        <span>Visión 360</span>
+        <h2>Una experiencia natural que impresiona desde el primer vistazo</h2>
+        <p>Integramos paisajes reales y vistas envolventes para que la página transmita aventura, calma y conexión con la naturaleza desde el primer segundo.</p>
+        <a href="https://xbenyax.github.io/" class="btn btn-cafe" target="_blank">Recorrido 360</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="seccion fondo-claro">
+    <div class="contenedor contacto-grid">
+      <div class="contacto-info">
+        <span>Contacto</span>
+        <h2>Conéctate con nosotros</h2>
+        <p>Estamos aquí para ayudarte a planificar tu próxima experiencia.</p>
+        <div class="datos-contacto">
+          <p>📍 La Paz, Bolivia</p>
+          <p>📧 EcoExperiencias@gmail.com</p>
+          <p>📞 +591 63155427</p>
+        </div>
+      </div>
+      <div class="contacto-imagen">
+      <img src="img/contacto.jpg" alt="Imagen decorativa de contacto">
+    </div>
+    </div>
+  </section>
+
+  <!-- ENCUESTA DE SATISFACCIÓN -->
+  <section id="encuesta" class="seccion fondo-oscuro">
+    <div class="contenedor">
+      <div class="titulo-seccion">
+        <span>Encuesta</span>
+        <h2>Tu opinión cuenta</h2>
+        <p>Queremos mejorar continuamente, comparte tu experiencia con nosotros.</p>
+      </div>
+      <div id="miModal">
+        <form id="encuestaForm">
+          <label for="p1">1. ¿La fluidez de la experiencia fue adecuada?</label>
+          <select name="p1" id="p1" required>
+            <option value="">Selecciona una opción</option>
+            <option value="SI">SI</option>
+            <option value="NO">NO</option>
+            <option value="TAL VEZ">TAL VEZ</option>
+          </select>
+
+          <label for="p2">2. ¿Recomendarías este recorrido virtual?</label>
+          <select name="p2" id="p2" required>
+           <option value="">Selecciona una opción</option>
+           <option value="SI">SI</option>
+           <option value="NO">NO</option>
+           <option value="TAL VEZ">TAL VEZ</option>
+          </select>
+
+  <label for="p3">3. ¿La interfaz fue fácil de usar?</label>
+  <select name="p3" id="p3" required>
+    <option value="">Selecciona una opción</option>
+    <option value="SI">SI</option>
+    <option value="NO">NO</option>
+    <option value="TAL VEZ">TAL VEZ</option>
+  </select>
+
+  <button id="btnEnviar" type="submit">Enviar Encuesta</button>
+</form>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="contenedor footer-content">
+      <p>© 2026 EcoExperiencias - Todos los derechos reservados</p>
+      <p>Diseño inspirado en la naturaleza 🌿🥽🍂</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
